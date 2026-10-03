@@ -1,0 +1,21 @@
+{
+  "name": "dream-car-builder-modern",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite build && vite preview --host",
+    "test": "node test/physics.test.mjs && node test/parts.test.mjs && node test/relay.test.mjs"
+  },
+  "dependencies": {
+    "@fontsource/exo-2": "^5.3.0",
+    "three": "^0.186.1",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.2"
+  }
+}
